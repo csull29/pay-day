@@ -1,7 +1,6 @@
 /*
 Pay.java
 @ author C Sullivan
-Lab Exercise
 14th Feb 2017
 */
 
