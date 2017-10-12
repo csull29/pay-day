@@ -1,7 +1,6 @@
 /*
 PayApp.java
 @ author C Sullivan
-Lab Exercise
 14th Feb 2017
 */
 
@@ -32,13 +31,13 @@ public class PayApp{
 			myPay.compute();
 
 			basicTotalPay=myPay.getBasicTotalPay();
-			JOptionPane.showMessageDialog(null, "The total amount you earned for your basic hours is €"+basicTotalPay);
+			JOptionPane.showMessageDialog(null, "The total amount you earned for your basic hours is â‚¬"+basicTotalPay);
 
 			otTotalPay=myPay.getOtTotalPay();
-			JOptionPane.showMessageDialog(null, "The total amount you earned for your over-time hours is €"+otTotalPay);
+			JOptionPane.showMessageDialog(null, "The total amount you earned for your over-time hours is â‚¬"+otTotalPay);
 
 			totalPay=myPay.getTotalPay();
-			JOptionPane.showMessageDialog(null, "The total amount you earned is €"+totalPay);
+			JOptionPane.showMessageDialog(null, "The total amount you earned is â‚¬"+totalPay);
 
 
 
